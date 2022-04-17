@@ -11,28 +11,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <!--Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="styles/index.css">
     
-    <title>MedController/Masuk</title>
+    <title>MedController/Daftar Akun</title>
   </head>
   <body>
-    <!-- Login Form -->
+    <!-- Register Form -->
     <div class="container auth-container">
         <div class="row">
             <div class="col-md-4 login text-center">
-                <img class="mb-4" src="./images/avatar.png">
+                <img src="./images/avatar.png">
+                <h6 class="my-3"><b>Buat akun baru</b></h6>
                 <form>
+                    <div class="mb-3">
+                        <input name="name" type="text" class="form-control" placeholder="Nama Lengkap">
+                    </div>
                     <div class="mb-3">
                         <input name="email" type="email" class="form-control" placeholder="Alamat Email">
                     </div>
                     <div class="mb-3">
-                        <input name="password" type="password" class="form-control" placeholder="Password">
+                        <input name="password" type="password" class="form-control" placeholder="Masukkan Password">
                     </div>
-                    <button class="btn btn-primary w-100 mb-4">MASUK</button>
+                    <div class="mb-3">
+                        <input name="password_confirm" type="password" class="form-control" placeholder="Ulangi Password">
+                    </div>
+                    <button class="btn btn-primary w-100 mb-4">DAFTAR</button>
                 </form>
-                <span>Belum punya akun? <a href="#">Daftar!</a></span>
+                <span>Sudah punya akun? <a href="#">Masuk!</a></span>
             </div>
         </div>
     </div>
