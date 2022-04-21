@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #79F1A4;">
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #4E944F;">
   <div class="container">
   <!-- Brand -->
   <a class="navbar-brand" href="#">MedController</a> 
