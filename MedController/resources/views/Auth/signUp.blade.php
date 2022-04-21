@@ -11,12 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!--Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/styles/index.css">
 
     <title>MedController/SignUp</title>
   </head>
@@ -25,8 +22,7 @@
     <div class="container auth-container">
         <div class="row">
             <div class="col-md-4 login text-center">
-                <img src="./images/brand-dark.png">
-                <h6 class="my-3"><b>Buat akun baru</b></h6>
+                <h6 class="mb-3"><b>Buat akun baru</b></h6>
                 <form>
                     <div class="mb-3">
                         <input name="name" type="text" class="form-control" placeholder="Nama Lengkap">
