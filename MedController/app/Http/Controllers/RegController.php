@@ -10,4 +10,9 @@ class RegController extends Controller
     {
         return view('signIn');
     }
+
+    public function daftar()
+    {
+        return view('signUp');
+    }
 }

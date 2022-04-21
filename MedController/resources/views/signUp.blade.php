@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,18 +14,18 @@
     <!--Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles/index.css">
-    
-    <title>MedController/Daftar Akun</title>
+
+    <title>MedController/SignUp</title>
   </head>
   <body>
     <!-- Register Form -->
     <div class="container auth-container">
         <div class="row">
             <div class="col-md-4 login text-center">
-                <img src="./images/avatar.png">
+                <img src="./images/brand-dark.png">
                 <h6 class="my-3"><b>Buat akun baru</b></h6>
                 <form>
                     <div class="mb-3">
@@ -46,10 +46,10 @@
             </div>
         </div>
     </div>
-   
-      
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    
+
   </body>
 </html>
