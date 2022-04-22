@@ -1,0 +1,39 @@
+/* body */
+body{
+    background-color: #6fdb70;
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 0.75em !important;
+}
+.navbar-brand {
+    font-size: 2em;
+}
+
+/* Login & Register */
+.auth-container,
+.auth-container .row {
+    height: 100vh;
+}
+.auth-container .row {
+    align-items: center;
+    justify-content: center;
+}
+.auth-container .login {
+    padding: 2em;
+    background-color: #272c30;
+    border-radius: 15px;
+}
+.login img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.login{
+    color: gainsboro;
+}
+
+
+
+
