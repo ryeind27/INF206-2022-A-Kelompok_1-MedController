@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/',[RegController::class,'index']);
+
+Route::get('/Login/signUp',[RegController::class,'daftar']);
