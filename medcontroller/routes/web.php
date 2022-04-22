@@ -17,4 +17,4 @@ use App\Http\Controllers\RegController;
 
 Route::get('/',[RegController::class,'index']);
 
-Route::get('/signIn/signUp',[RegController::class,'daftar']);
+Route::get('/Login/signUp',[RegController::class,'daftar']);

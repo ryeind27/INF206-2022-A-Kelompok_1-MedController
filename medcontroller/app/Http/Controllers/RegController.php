@@ -8,11 +8,11 @@ class RegController extends Controller
 {
     public function index()
     {
-        return view('Auth.signIn');
+        return view('Auth.Login');
     }
 
     public function daftar()
     {
-        return view('Auth.signUp');
+        return view('Auth.SignUp');
     }
 }
