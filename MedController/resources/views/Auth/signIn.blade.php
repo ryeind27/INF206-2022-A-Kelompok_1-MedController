@@ -32,7 +32,7 @@
                     </div>
                     <button class="btn btn-primary w-100 mb-4">MASUK</button>
                 </form>
-                <span>Belum punya akun? <a href="./signUp">Daftar!</a></span>
+                <span>Belum punya akun? <a href="#">Daftar!</a></span>
                 <div>
                 <span>Lupa Password? <a href="#">Klik disini!</a></span>
                 </div>
