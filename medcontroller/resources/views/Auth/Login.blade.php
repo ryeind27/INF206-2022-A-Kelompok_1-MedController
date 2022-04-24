@@ -32,7 +32,7 @@
                     </div>
                     <button class="btn btn-primary w-100 mb-4">MASUK</button>
                 </form>
-                <span>Belum punya akun? <a href="#">Daftar!</a></span>
+                <span>Belum punya akun? <a href="{{url('SignUp')}}">Daftar!</a></span>
             </div>
         </div>
     </div>

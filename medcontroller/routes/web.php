@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('/',[RegController::class,'index']);
 
-Route::get('/Login/signUp',[RegController::class,'daftar']);
+Route::get('/SignUp',[RegController::class,'daftar']);

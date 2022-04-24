@@ -38,7 +38,7 @@
                     </div>
                     <button class="btn btn-primary w-100 mb-4">DAFTAR</button>
                 </form>
-                <span>Sudah punya akun? <a href="#">Masuk!</a></span>
+                <span>Sudah punya akun? <a href="{{url('/')}}">Masuk!</a></span>
             </div>
         </div>
     </div>
