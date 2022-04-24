@@ -36,6 +36,7 @@
                 <div>
                     <span>Lupa Password? <a href="{{url('/forgotpass')}}">Klik disini!</a></span>
                 </div>
+                <span>Belum punya akun? <a href="{{url('SignUp')}}">Daftar!</a></span>
             </div>
         </div>
     </div>
