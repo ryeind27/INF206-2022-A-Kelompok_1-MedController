@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,30 +14,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/forgotpass.css">
 
-    <title>MedController/Masuk</title>
-  </head>
-  <body>
-    <!-- Login Form -->
+    <title>MedController/Forgot Password</title>
+</head>
+
+<body>
+    <!-- Register Form -->
     <div class="container auth-container">
         <div class="row">
             <div class="col-md-4 login text-center">
-                <img class="mb-4" src="./images/avatar.png">
+                <h6 class="mb-3"><b>Lupa Password</b></h6>
                 <form>
+
                     <div class="mb-3">
                         <input name="email" type="email" class="form-control" placeholder="Alamat Email">
                     </div>
                     <div class="mb-3">
-                        <input name="password" type="password" class="form-control" placeholder="Password">
+                        <input name="password" type="password" class="form-control" placeholder="Masukkan Password Lama">
                     </div>
-                    <button class="btn btn-primary w-100 mb-4">MASUK</button>
+                    <div class="mb-3">
+                        <input name="password" type="password" class="form-control" placeholder="Masukkan Password Baru">
+                    </div>
+                    <div class="mb-3">
+                        <input name="password_confirm" type="password" class="form-control" placeholder="konfirmasi Password">
+                    </div>
+                     <button class="btn btn-primary w-100 mb-4">CONFIRM</button>
                 </form>
-                <span>Belum punya akun? <a href="{{url('/signUp')}}">Daftar!</a></span>
-                <div>
-                    <span>Lupa Password? <a href="{{url('/forgotpass')}}">Klik disini!</a></span>
-                </div>
-                <span>Belum punya akun? <a href="{{url('SignUp')}}">Daftar!</a></span>
             </div>
         </div>
     </div>
@@ -45,5 +49,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
-  </body>
+</body>
+
 </html>

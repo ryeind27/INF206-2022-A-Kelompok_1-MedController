@@ -15,4 +15,9 @@ class RegController extends Controller
     {
         return view('Auth.SignUp');
     }
+
+    public function forgetpass()
+    {
+        return view('Auth.forgotpass');
+    }
 }
