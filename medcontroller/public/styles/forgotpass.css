@@ -5,18 +5,8 @@ body {
 }
 
 
-/* Navbar */
 
-.navbar {
-    padding-top: 0.75em !important;
-}
-
-.navbar-brand {
-    font-size: 2em;
-}
-
-
-/* Login & Register */
+/* Login, Register & Forgot Password */
 
 .auth-container,
 .auth-container .row {
