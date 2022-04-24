@@ -4,17 +4,17 @@
   <title>MedController Menu</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #4E944F;">
-  <div class="container">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #79F1A4;">
+  <div class="container fluid">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">MedController</a> 
+  <a class="navbar-brand" href="#"><b>MedController</b></a> 
   <!-- Links -->
 </div>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -23,39 +23,40 @@
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="#"><b>Home</b></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Resep</a>
+      <a class="nav-link" href="#"><b>Resep</b></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Jadwal</a>
+        <a class="nav-link" href="#"><b>Jadwal</b></a>
       </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Chat</a>
+        <a class="nav-link" href="#"><b>Chat</b></a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">NamaUser</a>
     </li>
   </ul>
   </div>
-  <img src="profile.jpeg" alt="Logo" style="width:50px;" class="rounded-circle" href="#"> 
-<!-- </div>-->
+  <img src="./Images/avatar.png" alt="Logo" style="width:50px;" class="rounded-circle" href="#"> 
 </nav>
 <br><br><br>
+      <h5><label for="exampleFormControlTextarea1" class="form-label" >Pengingat</label></h5>
+      <div class="mb-3 mt-3">
+        <div class="p-2 text-dark bg-opacity-25" style="background-color: #79F1A4;">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        <div class="d-grid gap-2">
+        <button class="btn btn-secondary float-end" data-bs-toggle="collapse" data-bs-target="#demo">+</button>
+        <div id="demo" class="collapse">
+          <div class="p-2 text-dark bg-opacity-25" style="background-color: #79F1A4;">
+            <button type="button" class="btn-close" data-bs-dismiss="" aria-label="Close"></button>
+            <textarea class="form-control " id="exampleFormControlTextarea1" rows="10"></textarea>
+      </div>
+    </div>
+      </div>
+    </div>
+    </div>
 
-      <!-- <div class="alert alert-success" role="alert">
-        Pemberitahuan
-      </div>
-      <div class = "pemberitahuan" >
-      <a class = "alert" href = "#">Pemberitahuan pasien</a>
-      </div> -->
-      <div class="alert alert-success alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <h4 class="alert-heading">Pemberitahuan</h4>
-        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-        <hr>
-        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-      </div>
 </body>
 </html>
