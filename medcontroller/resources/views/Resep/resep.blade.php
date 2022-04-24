@@ -128,6 +128,9 @@
                         <div>
                             <center><button class="btn btn--radius-2 btn--black" type="kirim">kirim</button></center>
                         </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--black" type="tambah"><h1>+</h1></button>
+                        </div>
                     </form>
                 </div>
             </div>
