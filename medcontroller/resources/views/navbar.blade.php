@@ -36,9 +36,9 @@
     </li>
   </ul>
   </div>
-  <li class="nav-item dropdown">
+  <a href="#">
   <img src="./Images/avatar.png" alt="Logo" style="width:50px;" class="rounded-circle" href="#"> 
-  </li>
+  </a>
 </nav>
 <br><br><br>
       <h5><label for="exampleFormControlTextarea1" class="form-label" >Pengingat</label></h5>
