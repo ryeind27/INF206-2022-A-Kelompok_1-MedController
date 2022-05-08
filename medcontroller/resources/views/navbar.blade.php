@@ -14,7 +14,7 @@
 <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #79F1A4;">
   <div class="container fluid">
   <!-- Brand -->
-  <a class="navbar-brand" href="#"><b>MedController</b></a> 
+  <span class="navbar-brand mb-0 h1">MedController</span>
   <!-- Links -->
 </div>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -34,12 +34,11 @@
     <li class="nav-item">
         <a class="nav-link" href="#"><b>Chat</b></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">NamaUser</a>
-    </li>
   </ul>
   </div>
+  <li class="nav-item dropdown">
   <img src="./Images/avatar.png" alt="Logo" style="width:50px;" class="rounded-circle" href="#"> 
+  </li>
 </nav>
 <br><br><br>
       <h5><label for="exampleFormControlTextarea1" class="form-label" >Pengingat</label></h5>
