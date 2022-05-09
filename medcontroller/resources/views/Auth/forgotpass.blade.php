@@ -1,4 +1,4 @@
-@extends('.app')
+@extends('app')
 <!-- Forgotpass Form -->
 @section('content')
     <div class="container auth-container">
