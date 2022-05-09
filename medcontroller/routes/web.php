@@ -14,7 +14,15 @@ use App\Http\Controllers\RegController;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/',[RegController::class,'index']);
+
+
+Route::get('/signUp',[RegController::class,'daftar']);
+
+Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
 Route::get('/SignUp',[RegController::class,'daftar']);
