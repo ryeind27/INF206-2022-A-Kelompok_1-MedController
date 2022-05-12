@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
+.bg {
+  overflow: hidden;
+  background: #281050;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.brand {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 84%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #0084ff;
+  font-size: 100px;
+  letter-spacing: 8px;
+  cursor: none;
+  z-index: 5;
+}
+
+.brand::before {
+  content: "Chatoon";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.brand::after {
+  content: "Chatoon";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.brand:hover:before {
+  top: 20px;
+  left: 20px;
+}
+
+.brand:hover:after {
+  top: -20px;
+  left: -20px;
+}
+.sky {
+  background-color: #1b0c33;
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  /*below show how it works*/
+}
+.sky::after {
+  content: "";
+  width: 300%;
+  height: 0;
+  padding-top: 100%;
+  border-radius: 100%;
+  background: #281050;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-70%);
+}
+.mountain,
+.mountain-two,
+.mountain-three {
+  position: absolute;
+  bottom: 0;
+  border-left: 350px solid transparent;
+  border-right: 350px solid transparent;
+  border-bottom: 380px solid #342c46;
+  z-index: 1;
+}
+.mountain-two {
+  left: 190px;
+  bottom: -70px;
+  opacity: 0.3;
+  z-index: 0;
+}
+.mountain-three {
+  left: -150px;
+  bottom: -40px;
+  opacity: 0.5;
+  z-index: 0;
+}
+.mountain-top {
+  position: absolute;
+  right: -120px;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 132px solid #cecece;
+  z-index: 2;
+}
+.mountain-cap-1,
+.mountain-cap-2,
+.mountain-cap-3 {
+  position: absolute;
+  top: 130px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #cecece;
+}
+.mountain-cap-1 {
+  left: -75px;
+}
+.mountain-cap-2 {
+  left: -35px;
+}
+.mountain-cap-3 {
+  left: 5px;
+}
+.cloud,
+.cloud:before,
+.cloud:after {
+  position: absolute;
+  width: 130px;
+  height: 80px;
+  background: #fff;
+  -webkit-border-radius: 240px / 160px;
+  border-radius: 240px / 160px;
+}
+.cloud {
+  bottom: 250px;
+  -webkit-animation: cloud 50s infinite linear;
+  animation: cloud 50s infinite linear;
+}
+@-webkit-keyframes cloud {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes cloud {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.cloud:before {
+  content: "";
+  left: 50px;
+}
+.cloud:after {
+  content: "";
+  left: 25px;
+  top: -10px;
+}
+.cloud2,
+.cloud2:before,
+.cloud2:after {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  background: #fff;
+  -webkit-border-radius: 240px / 160px;
+  border-radius: 240px / 160px;
+}
+.cloud2 {
+  bottom: 350px;
+  -webkit-animation: cloud2 40s infinite linear;
+  animation: cloud2 40s infinite linear;
+}
+@-webkit-keyframes cloud2 {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes cloud2 {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.cloud2:before {
+  content: "";
+  left: 50px;
+}
+.cloud2:after {
+  content: "";
+  left: 25px;
+  top: -10px;
+}
+.cloud3,
+.cloud3:before,
+.cloud3:after {
+  position: absolute;
+  width: 130px;
+  height: 80px;
+  background: #fff;
+  -webkit-border-radius: 240px / 160px;
+  border-radius: 240px / 160px;
+}
+.cloud3 {
+  bottom: 480px;
+  -webkit-animation: cloud3 25s infinite linear;
+  animation: cloud3 25s infinite linear;
+}
+@-webkit-keyframes cloud3 {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes cloud3 {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.cloud3:before {
+  content: "";
+  left: 50px;
+}
+.cloud3:after {
+  content: "";
+  left: 25px;
+  top: -10px;
+}
