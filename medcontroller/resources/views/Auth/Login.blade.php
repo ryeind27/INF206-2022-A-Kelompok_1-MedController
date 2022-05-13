@@ -4,7 +4,7 @@
     <div class="container auth-container">
         <div class="row">
             <div class="col-md-4 login text-center">
-                <img class="mb-4" src="./images/avatar.png">
+                <img class="mb-4" src="./images/Medcontroller.png">
                 <form>
                     <div class="mb-3">
                         <input name="email" type="email" class="form-control" placeholder="Alamat Email">
