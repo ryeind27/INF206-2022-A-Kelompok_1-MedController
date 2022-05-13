@@ -11,20 +11,20 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <div class="container">
   <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
-  </div>
   <div>
   <a><b>NameUser</b></a>
   </div>
+  <br>
   <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
     <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
     <label class="btn btn-outline-primary" for="btncheck1">Biodata</label>
-  
+    <br>
     <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
     <label class="btn btn-outline-primary" for="btncheck2">Ubah Password</label>
-  
+    <br>
     <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
     <label class="btn btn-outline-primary" for="btncheck3">Log out</label>
   </div>
+</div>
 </body>
