@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('profile');
 });
 
-Route::get('/',[RegController::class,'index']);
+// Route::get('/',[RegController::class,'index']);
 
 
 Route::get('/signUp',[RegController::class,'daftar']);
