@@ -129,7 +129,7 @@
                             <center><button class="btn btn--radius-2 btn--black" type="submit" name="submit">kirim</button></center>
                         </div>
                         <div>
-                            <button class="btn btn--radius-2 btn--black" type="tambah"><h1>+</h1></button>
+                            <button class="btn btn--radius-3 btn--black" type="tambah"><h1>+</h1></button>
                         </div>
                     </form>
                 </div>
