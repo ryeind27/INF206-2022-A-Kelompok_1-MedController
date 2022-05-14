@@ -18,9 +18,9 @@
   </div>
   <br>
   <div class="d-grid gap-2 col-3 mx-auto">
-  <button class="btn btn-primary" type="button">Biodata</button>
-  <button class="btn btn-primary" type="button">Ubah Password</button>
-  <button class="btn btn-primary" type="button">Log Out</button>
+  <button class="btn btn-outline-dark" type="button">Biodata</button>
+  <button class="btn btn-outline-dark" type="button">Ubah Password</button>
+  <button class="btn btn-outline-dark" type="button">Log Out</button>
 </div>
 </div>
 </body>

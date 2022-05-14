@@ -1,9 +1,11 @@
 * {
+    background: URL(/images/icon.png) no-repeat center fixed;
     background-color: #79F1A4;
+    background-size: contain; 
 }
 
 .profile{
-    background-color: #79F1A4;
+    /* background-color: #79F1A4; */
     position: absolute;
     top: 25%;
     width: 100%;
