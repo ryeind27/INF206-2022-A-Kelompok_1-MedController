@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('profile');
 });
+
+Route::get('/',[RegController::class,'index']);
+
+
+Route::get('/signUp',[RegController::class,'daftar']);
+
+Route::get('/forgotpass',[RegController::class,'forgetpass']);
+
+Route::get('/SignUp',[RegController::class,'daftar']);
