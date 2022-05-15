@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class RegController extends Controller
 {
@@ -23,13 +24,19 @@ class RegController extends Controller
     //SignUp Store Data
     public function store(Request $request)
     {
-        $request->validate([
+        $validatedData = $request->validate([
             'name' => 'required|max:255',
-            'email' => 'required|email|unique:users',
+            'email' => 'required|email:dns|unique:users',
             'password' => 'required|min:8|max:255',
             'password_confirm' => 'required|same:password',
         ]);
 
-        dd('register success');
+        $validatedData['password'] = bcrypt($validatedData['password']);
+
+        User::create($validatedData);
+
+        $request -> session()->flash('success', 'Successfully created! ');
+
+        return redirect('/');
     }
 }

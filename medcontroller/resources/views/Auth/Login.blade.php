@@ -7,6 +7,14 @@
                 <img class="mb-4" src="./images/Medcontroller.png">
                 <form>
                     <div class="mb-3">
+
+                        @if(session()->has('success'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            {{session('success')}}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                        @endif
+
                         <input name="email" type="email" class="form-control" placeholder="Alamat Email">
                     </div>
                     <div class="mb-3">
