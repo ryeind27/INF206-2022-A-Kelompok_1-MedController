@@ -33,6 +33,10 @@
                             <div class="name">:</div>
                         </div>
                         <div class="form-row">
+                            <div class="name">Pilih apotek</div>
+                            <div class="name">:</div>
+                        </div>
+                        <div class="form-row">
                             <div class="name">Jenis obat</div>
                             <div class="name">:</div>
                         </div>
@@ -70,7 +74,7 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
 <!-- end document-->
