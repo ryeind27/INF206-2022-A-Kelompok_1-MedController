@@ -1,6 +1,6 @@
 /* body */
 body{
-    background-color: #6fdb70;
+    background-color: #79f1a4;
 }
 
 /* Navbar */
@@ -11,7 +11,7 @@ body{
     font-size: 2em;
 }
 
-/* Login & Register */
+/* Login, Register & Forget password */
 .auth-container,
 .auth-container .row {
     height: 100vh;
@@ -28,7 +28,7 @@ body{
 .login img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 80%;
 }
 .login{
     color: gainsboro;
