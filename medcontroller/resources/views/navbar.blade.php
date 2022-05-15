@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #79F1A4;">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #344C2D;">
   <div class="container fluid">
   <!-- Brand -->
   <span class="navbar-brand mb-0 h1"><img src="./Images/MedController.png" alt="Logo" style="width:20%;" href="#"> </span>
@@ -37,7 +37,7 @@
   </ul>
   </div>
   <a href="#">
-  <img src="./Images/avatar.png" alt="Logo" style="width:50px;" class="rounded-circle" href="#"> 
+  <img src="./Images/avatar.png" alt="Logo" style="width:60px;" class="rounded-circle" href="#"> 
   </a>
 </nav>
 <br><br><br>

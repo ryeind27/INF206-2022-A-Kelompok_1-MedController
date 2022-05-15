@@ -15,14 +15,14 @@ use App\Http\Controllers\RegController;
 */
 
 Route::get('/', function () {
-    return view('profile');
+    return view('navbar');
 });
 
-// Route::get('/',[RegController::class,'index']);
+//Route::get('/',[RegController::class,'index']);
 
 
-Route::get('/signUp',[RegController::class,'daftar']);
+// Route::get('/signUp',[RegController::class,'daftar']);
 
-Route::get('/forgotpass',[RegController::class,'forgetpass']);
+// Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
-Route::get('/SignUp',[RegController::class,'daftar']);
+// Route::get('/SignUp',[RegController::class,'daftar']);
