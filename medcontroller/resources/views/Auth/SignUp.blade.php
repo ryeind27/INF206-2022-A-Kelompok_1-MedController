@@ -24,10 +24,20 @@
                         @enderror
                     </div>
                     <div class="mb-3">
-                        <input name="password" type="password" class="form-control" placeholder="Masukkan Password">
+                        <input name="password" type="password" class="form-control @error('password')is-invalid @enderror" placeholder="Masukkan Password">
+                        @error('password')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="mb-3">
-                        <input name="password_confirm" type="password" class="form-control" placeholder="Ulangi Password">
+                        <input name="password_confirm" type="password" class="form-control @error('password_confirm')is-invalid @enderror" placeholder="Ulangi Password">
+                        @error('password_confirm')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <button class="btn btn-primary w-100 mb-4">DAFTAR</button>
                 </form>
