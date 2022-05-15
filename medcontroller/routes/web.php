@@ -20,9 +20,8 @@ Route::get('/', function () {
 
 Route::get('/',[RegController::class,'index']);
 
-
-Route::get('/signUp',[RegController::class,'daftar']);
-
 Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
 Route::get('/SignUp',[RegController::class,'daftar']);
+
+Route::post('/SignUp',[RegController::class,'store']);

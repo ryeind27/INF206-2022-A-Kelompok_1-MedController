@@ -5,12 +5,23 @@
         <div class="row">
             <div class="col-md-4 login text-center">
                 <h6 class="mb-3"><b>Buat akun baru</b></h6>
-                <form>
+                <form action="/SignUp" method = "post">
+                    @csrf
                     <div class="mb-3">
-                        <input name="name" type="text" class="form-control" placeholder="Nama Lengkap">
+                        <input name="name" type="text" class="form-control @error('name')is-invalid @enderror"placeholder="Nama Lengkap">
+                        @error('name')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="mb-3">
-                        <input name="email" type="email" class="form-control" placeholder="Alamat Email">
+                        <input name="email" type="email" class="form-control @error('email')is-invalid @enderror" placeholder="Alamat Email">
+                        @error('email')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
                     </div>
                     <div class="mb-3">
                         <input name="password" type="password" class="form-control" placeholder="Masukkan Password">
