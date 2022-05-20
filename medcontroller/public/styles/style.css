@@ -1,0 +1,14 @@
+* {
+    background-color: #79F1A4;
+} 
+
+.profile{
+    background-color: #79F1A4;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
