@@ -84,6 +84,12 @@
     font-size: 15px;
     font-weight: 700;
   }
+
+  .judul {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+  }
   
   .form-row .value {
     width: -webkit-calc(100% - 125px);
