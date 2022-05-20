@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class RegController extends Controller
 {
-    public function index()
+    public function Masuk()
     {
         return view('Auth.Login');
     }

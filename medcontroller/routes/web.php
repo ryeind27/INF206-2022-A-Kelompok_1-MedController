@@ -15,7 +15,7 @@ use App\Http\Controllers\AppController;
 |
 */
 
-// Route::get('/',[RegController::class,'index']);
+ Route::get('/',[RegController::class,'Masuk']);
 
 Route::post('/Login',[RegController::class,'login']);
 
