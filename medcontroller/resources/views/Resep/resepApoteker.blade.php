@@ -16,7 +16,7 @@
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/main2.css" rel="stylesheet" media="all">
+    <link href="css/style2.css" rel="stylesheet" media="all">
 </head>
 
 <body>
@@ -29,37 +29,36 @@
                 <div class="card-body">
                     <form method="POST">
                         <div class="form-row">
-                            <div class="name">Nama pasien</div>
-                            <div class="name">:</div>
+                            <div class="judul">Nama pasien</div>
+                            <div class="judul">:</div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="judul">Pilih Apotek</div>
+                            <div class="judul">:</div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="judul">Jenis obat</div>
+                            <div class="judul">:</div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Pilih apotek</div>
-                            <div class="name">:</div>
+                            <div class="judul">Nama obat</div>
+                            <div class="judul">:</div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Jenis obat</div>
-                            <div class="name">:</div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">Nama obat</div>
-                            <div class="name">:</div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">Penggunaan</div>
-                            <div class="name">:</div>
+                            <div class="judul">Penggunaan</div>
+                            <div class="judul">:</div>
                             <h1>X</h1>
                         </div>
                         <div class="form-row">
-                            <div class="name">Jangka waktu</div>
-                            <div class="name">:</div>
-                            <div class="name">hari</div>
+                            <div class="judul">Jangka waktu</div>
+                            <div class="judul">:</div>
+                            <div class="judul">hari</div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Keterangan</div>
-                            <div class="name">:</div>
-                        </div>
-                        <div>
-                            <center><button class="btn btn--radius-2 btn--black" type="submit">Selesai</button></center>
+                            <div class="judul">Keterangan</div>
+                            <div class="judul">:</div>
                         </div>
                     </form>
                 </div>
@@ -77,7 +76,7 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
-</body>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 </html>
 <!-- end document-->
