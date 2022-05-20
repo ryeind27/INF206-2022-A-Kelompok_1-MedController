@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class RegController extends Controller
 {
@@ -38,5 +39,21 @@ class RegController extends Controller
         $request -> session()->flash('success', 'Successfully created! ');
 
         return redirect('/');
+    }
+
+    public function login(request $request)
+    {
+        $credentials = $request->validate([
+            'email' => 'required|email:dns',
+            'password' => 'required'
+        ]);
+
+
+        if(Auth::attempt($credentials)){
+            $request->session()->regenerate();
+            return redirect()->intended('/Home');
+        }
+
+        return back()->with('loginError', 'Email or Password is wrong');
     }
 }

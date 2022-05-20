@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegController;
+use App\Http\Controllers\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,14 +15,19 @@ use App\Http\Controllers\RegController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('');
+//});
 
 Route::get('/',[RegController::class,'index']);
+
+Route::post('/Login',[RegController::class,'login']);
 
 Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
 Route::get('/SignUp',[RegController::class,'daftar']);
 
 Route::post('/SignUp',[RegController::class,'store']);
+
+
+Route::get('/Home', [Appcontroller::class,'index']);
