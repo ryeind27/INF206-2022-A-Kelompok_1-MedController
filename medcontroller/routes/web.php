@@ -18,11 +18,23 @@ Route::get('/', function () {
     return view('navbar');
 });
 
-//Route::get('/',[RegController::class,'index']);
+//    Route::get('/',[RegController::class,'index']);
 
 
-// Route::get('/signUp',[RegController::class,'daftar']);
+   Route::get('/signUp',[RegController::class,'daftar']);
 
-// Route::get('/forgotpass',[RegController::class,'forgetpass']);
+   Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
-// Route::get('/SignUp',[RegController::class,'daftar']);
+   Route::get('/SignUp',[RegController::class,'daftar']);
+
+   Route::get('navbar',[RegController::class,'navbar']);
+
+   Route::get('/profile',[RegController::class,'profile']);
+
+   Route::get('/login',[RegController::class,'index']);
+
+   Route::get('/jadwal',[RegController::class,'setJadwal']);
+
+   Route::get('/chat',[RegController::class,'chat']);
+
+   Route::get('/resep',[RegController::class,'resep']);

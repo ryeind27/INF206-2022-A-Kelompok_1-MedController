@@ -18,9 +18,9 @@
                     <div class="mb-3">
                         <input name="password_confirm" type="password" class="form-control" placeholder="Ulangi Password">
                     </div>
-                    <button class="btn btn-primary w-100 mb-4">DAFTAR</button>
+                        <button class="btn btn-primary w-100 mb-4">DAFTAR</button>
                 </form>
-                <span>Sudah punya akun? <a href="{{url('/')}}">Klik Disini!</a></span>
+                <span>Sudah punya akun? <a href="{{url('/login')}}">Klik Disini!</a></span>
             </div>
         </div>
     </div>
