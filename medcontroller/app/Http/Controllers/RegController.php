@@ -22,6 +22,27 @@ class RegController extends Controller
     {
         return view('Auth.forgotpass');
     }
+  
+    public function navbar()
+    {
+        return view('navbar');
+    }
+    public function profile()
+    {
+        return view('profile');
+    }
+    public function setJadwal()
+    {
+        return view('Auth.jadwal');
+    }
+    public function chat()
+    {
+        return view('Auth.chat');
+    }
+    public function resep()
+    {
+        return view('Auth.resep');
+
     //SignUp Store Data
     public function store(Request $request)
     {

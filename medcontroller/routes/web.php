@@ -15,15 +15,27 @@ use App\Http\Controllers\AppController;
 |
 */
 
-Route::get('/', function () {
-    return view('profile');
-});
-
-// Route::get('/',[RegController::class,'index']);
+   Route::get('/signUp',[RegController::class,'daftar']);
 
 Route::post('/Login',[RegController::class,'login']);
 
-Route::get('/forgotpass',[RegController::class,'forgetpass']);
+
+   Route::get('/forgotpass',[RegController::class,'forgetpass']);
+
+
+   Route::get('/SignUp',[RegController::class,'daftar']);
+
+   Route::get('navbar',[RegController::class,'navbar']);
+
+   Route::get('/profile',[RegController::class,'profile']);
+
+   Route::get('/login',[RegController::class,'index']);
+
+   Route::get('/jadwal',[RegController::class,'setJadwal']);
+
+   Route::get('/chat',[RegController::class,'chat']);
+
+   Route::get('/resep',[RegController::class,'resep']);
 
 Route::get('/SignUp',[RegController::class,'daftar']);
 
@@ -31,3 +43,4 @@ Route::post('/SignUp',[RegController::class,'store']);
 
 
 Route::get('/Home', [Appcontroller::class,'index']);
+
