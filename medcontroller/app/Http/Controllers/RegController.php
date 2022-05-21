@@ -58,7 +58,7 @@ class RegController extends Controller
 
         User::create($validatedData);
 
-        $request -> session()->flash('success', 'Successfully created! ');
+        $request -> session()->flush('success', 'Successfully created! ');
 
         return redirect('/');
     }
