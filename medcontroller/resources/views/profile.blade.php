@@ -15,12 +15,55 @@
   <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
   <div>
   <a><b>NameUser</b></a>
-  </div>
+    <div class="row detailTable">
+      <div class="col-md-3">
+          <details>
+              <table class="table table-borderless">
+                  <tbody>
+                      <tr>
+                          <td>
+                              <h6 class=""><b>Nama</b></h6>
+                          </td>
+                          <td>
+                              {{-- <h6 class="">{{ auth()->user()->name }}</h6> --}}
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <h6 class=""><b>Email</b></h6>
+                          </td>
+                          <td>
+                              {{-- {{ auth()->user()->phone }} --}}
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <h6 class=""><b>Alamat</b></h6>
+                          </td>
+                          <td>
+                              {{-- {{ auth()->user()->kota_asal }} --}}
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <h6 class=""><b>No.Hp<b></h6>
+                        </td>
+                        <td>
+                              {{-- data --}}
+                        </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </details>
+        </div>
+      </div>
   <br>
   <div class="d-grid gap-2 col-3 mx-auto">
-  <button class="btn btn-outline-dark btn-light" type="button">Biodata</button>
-  <button class="btn btn-outline-dark btn-light" type="button">Ubah Password</button>
-  <button class="btn btn-outline-dark btn-light" type="button">Log Out</button>
+  <a class="btn btn-outline-dark btn-light" href="#">Biodata</a>
+  <a class="btn btn-outline-dark btn-light" href="#">Ubah Password</a>
+  <a class="btn btn-outline-dark btn-light" href="#">Log out</a>
 </div>
 </div>
+  </div>
+
 </body>
