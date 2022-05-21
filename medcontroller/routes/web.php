@@ -15,11 +15,13 @@ use App\Http\Controllers\AppController;
 |
 */
 
- Route::get('/',[RegController::class,'Masuk']);
+Route::get('/',[RegController::class,'Masuk']);
 
 Route::post('/Login',[RegController::class,'login']);
 
 Route::get('/forgotpass',[RegController::class,'forgetpass']);
+
+Route::post('/lupaPassword',[RegController::class,'forgotpassword']);
 
 Route::get('/SignUp',[RegController::class,'daftar']);
 
