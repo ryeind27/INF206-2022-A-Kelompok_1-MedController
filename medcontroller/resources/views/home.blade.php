@@ -40,5 +40,32 @@
 </ul>
   </div>
 </nav>
- @yield('konten')
-</body>
+<br><br><br>
+      <h5><label for="exampleFormControlTextarea1" class="form-label" >Pengingat</label></h5>
+      <div class="form mb-3 mt-3">
+        <div class="p-2 text-dark bg-opacity-25" style="background-color: #79F1A4;">
+          <form action=/notifikasi method=post>
+              <p><label for="w3review">Input teks:</label></p>
+              <textarea id="w3review" name="w3review" rows="10" cols="100"></textarea>
+                <br>
+              <input type="submit" value="Submit">
+          </form>
+      <div class="d-grid gap-2">
+      <button class="btn btn-secondary float-end" data-bs-toggle="collapse" data-bs-target="#demo">+</button>
+      <div id="demo" class="collapse">
+        <div class="p-2 text-dark bg-opacity-25" style="background-color: #79F1A4;">
+        <button type="button" class="btn-close" data-bs-dismiss="form" aria-label="Close"></button>
+        <form action=/notifikasi method=post>
+          <p><label for="w3review">Input teks:</label></p>
+          <textarea id="w3review" name="w3review" rows="10" cols="100"></textarea>
+         <br>
+         <input type="submit" value="Submit">
+        </form>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

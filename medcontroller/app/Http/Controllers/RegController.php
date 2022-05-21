@@ -23,9 +23,9 @@ class RegController extends Controller
         return view('Auth.forgotpass');
     }
 
-    public function navbar()
+    public function home()
     {
-        return view('navbar');
+        return view('home');
     }
     public function profile()
     {
@@ -73,7 +73,7 @@ class RegController extends Controller
 
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
-            return redirect()->intended('/navbar');
+            return redirect()->intended('/home');
         }
 
         return back()->with('loginError', 'Email or Password is wrong');

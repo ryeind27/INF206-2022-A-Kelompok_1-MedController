@@ -25,7 +25,7 @@ use App\Http\Controllers\AppController;
 
    Route::get('/SignUp',[RegController::class,'daftar']);
 
-   Route::get('/navbar',[RegController::class,'navbar']);
+   Route::get('/home',[RegController::class,'home']);
 
    Route::get('/profile',[RegController::class,'profile']);
 

@@ -11,10 +11,14 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <div class ="profile">
-  <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
-  <div>
-  <a><b>NameUser</b></a>
+    @extends('navbar')
+    @section('konten')
+    <div class = "space">
+    <div class = "profile">
+        <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
+        <div>
+        <a><b>NameUser</b></a>
+        </div>
     <div class="row detailTable">
       <div class="col-md-3">
           <details>
@@ -56,14 +60,14 @@
               </table>
           </details>
         </div>
-      </div>
-  <br>
+    </div>
+  <br><br>
   <div class="d-grid gap-2 col-3 mx-auto">
   <a class="btn btn-outline-dark btn-light" href="#">Biodata</a>
   <a class="btn btn-outline-dark btn-light" href="#">Ubah Password</a>
   <a class="btn btn-outline-dark btn-light" href="#">Log out</a>
 </div>
+    </div>
 </div>
-  </div>
-
+@endsection
 </body>
