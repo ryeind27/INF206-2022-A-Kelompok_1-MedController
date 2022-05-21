@@ -16,13 +16,12 @@ use App\Http\Controllers\AppController;
 */
 
    Route::get('/',[RegController::class,'Masuk']);
+   
    Route::get('/signUp',[RegController::class,'daftar']);
 
    Route::post('/Login',[RegController::class,'login']);
 
-
    Route::get('/forgotpass',[RegController::class,'forgetpass']);
-
 
    Route::get('/SignUp',[RegController::class,'daftar']);
 
