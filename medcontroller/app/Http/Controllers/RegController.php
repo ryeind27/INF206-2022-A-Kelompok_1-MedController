@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class RegController extends Controller
 {
-    public function index()
+    public function Masuk()
     {
         return view('Auth.Login');
     }
@@ -73,7 +73,7 @@ class RegController extends Controller
 
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
-            return redirect()->intended('/Home');
+            return redirect()->intended('/navbar');
         }
 
         return back()->with('loginError', 'Email or Password is wrong');

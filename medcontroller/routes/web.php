@@ -15,6 +15,7 @@ use App\Http\Controllers\AppController;
 |
 */
 
+   Route::get('/',[RegController::class,'Masuk']);
    Route::get('/signUp',[RegController::class,'daftar']);
 
    Route::post('/Login',[RegController::class,'login']);
@@ -25,7 +26,7 @@ use App\Http\Controllers\AppController;
 
    Route::get('/SignUp',[RegController::class,'daftar']);
 
-   Route::get('navbar',[RegController::class,'navbar']);
+   Route::get('/navbar',[RegController::class,'navbar']);
 
    Route::get('/profile',[RegController::class,'profile']);
 
@@ -42,5 +43,5 @@ use App\Http\Controllers\AppController;
    Route::post('/SignUp',[RegController::class,'store']);
 
 
-   Route::get('/Home', [Appcontroller::class,'index']);
+   // Route::get('/Home', [Appcontroller::class,'index']);
 
