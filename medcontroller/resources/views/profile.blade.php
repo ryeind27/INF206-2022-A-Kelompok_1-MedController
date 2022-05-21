@@ -59,9 +59,9 @@
       </div>
   <br>
   <div class="d-grid gap-2 col-3 mx-auto">
-  <button class="btn btn-outline-dark btn-light" type="button">Biodata</button>
-  <button class="btn btn-outline-dark btn-light" type="button">Ubah Password</button>
-  <button class="btn btn-outline-dark btn-light" type="button">Log Out</button>
+  <a class="btn btn-outline-dark btn-light" href="#">Biodata</a>
+  <a class="btn btn-outline-dark btn-light" href="#">Ubah Password</a>
+  <a class="btn btn-outline-dark btn-light" href="#">Log out</a>
 </div>
 </div>
   </div>
