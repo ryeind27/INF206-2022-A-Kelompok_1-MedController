@@ -22,7 +22,7 @@ class RegController extends Controller
     {
         return view('Auth.forgotpass');
     }
-  
+
     public function navbar()
     {
         return view('navbar');
@@ -42,6 +42,7 @@ class RegController extends Controller
     public function resep()
     {
         return view('Auth.resep');
+    }
 
     //SignUp Store Data
     public function store(Request $request)
