@@ -18,20 +18,22 @@
 
 details{
   position: absolute;
-  top: 39%;
+  top: 48%;
   bottom: 100%;
   width: 100%;
   right: 4px;
   text-align: center;
   font-size: 12px;
+  color: rgb(41, 0, 225);
   }
 
-/* .container{
-  position: relative;
-  top: 50%;
-  bottom: 100%;
-  width: 100%;
-  right: 4px;
+.breadcrumb{
+  position: absolute;
   text-align: center;
-  font-size: 12px;
-} */
+  top: 40%;
+  bottom: 0%;
+  left: 42%;
+  width: 100%;
+  font-size: 15px;
+  color: black;
+}

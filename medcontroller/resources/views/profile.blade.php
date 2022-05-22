@@ -18,6 +18,14 @@
         <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
         <div>
         <a><b>NameUser</b></a>
+        </div>
+        <div aria-label="breadcrumb" > 
+            <ol class="breadcrumb ">
+              <li class="breadcrumb-item"><a href="#" style="color: black;">Biodata</a></li>
+              <li class="breadcrumb-item"><a href="#"style="color: black;">Ubah Password</a></li>
+              <li class="breadcrumb-item"><a href="#" style="color:red ;">Log out</li>
+            </ol>
+        </div>
     <div class="row detailTable">
       <div class="col-md-3">
           <details>
@@ -28,7 +36,7 @@
                               <h6 class=""><b>Nama</b></h6>
                           </td>
                           <td>
-                              {{-- <h6 class="">{{ auth()->user()->name }}</h6> --}}
+                              {{-- <h6 class="">{{ auth()->users()->name }}</h6> --}}
                           </td>
                       </tr>
                       <tr>
@@ -36,7 +44,7 @@
                               <h6 class=""><b>Email</b></h6>
                           </td>
                           <td>
-                              {{-- {{ auth()->user()->phone }} --}}
+                              {{-- {{ auth()->users()->email}} --}}
                           </td>
                       </tr>
                       <tr>
@@ -61,14 +69,13 @@
         </div>
     </div>
     </div>
-  <br><br>
+  {{-- <br><br>
   <div class="d-grid gap-2 col-3 mx-auto">
   <a class="btn btn-outline-dark btn-light" href="#">Biodata</a>
   <a class="btn btn-outline-dark btn-light" href="#">Ubah Password</a>
   <a class="btn btn-outline-dark btn-light" href="#">Log out</a>
-</div>
+</div> --}}
     </div>
-</div>
     
 @endsection
 </body>
