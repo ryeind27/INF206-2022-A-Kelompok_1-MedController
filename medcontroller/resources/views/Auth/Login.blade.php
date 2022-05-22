@@ -36,9 +36,6 @@
                     <button class="btn btn-primary w-100 mb-4">MASUK</button>
                 </form>
                 <span>Belum punya akun? <a href="{{url('/SignUp')}}">Daftar!</a></span>
-                <div>
-                    <span>Lupa Password? <a href="{{url('/forgotpass')}}">Klik disini!</a></span>
-                </div>
             </div>
         </div>
     </div>

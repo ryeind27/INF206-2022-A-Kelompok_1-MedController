@@ -21,13 +21,21 @@ Route::get('/', function () {
    
    Route::get('/signUp',[RegController::class,'daftar']);
 
+<<<<<<< HEAD
    Route::post('/Login',[RegController::class,'login']);
+=======
+Route::get('/',[RegController::class,'Masuk']);
+>>>>>>> TM-Roy-Adrian_2008107010069
 
    Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
+<<<<<<< HEAD
    Route::get('/SignUp',[RegController::class,'daftar']);
 
    Route::get('/home',[RegController::class,'home']);
+=======
+Route::get('/SignUp',[RegController::class,'daftar']);
+>>>>>>> TM-Roy-Adrian_2008107010069
 
    Route::get('/profile',[RegController::class,'profile']);
 

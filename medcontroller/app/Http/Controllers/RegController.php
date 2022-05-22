@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\Hash;
 
 class RegController extends Controller
 {
@@ -67,7 +69,7 @@ class RegController extends Controller
     {
         $credentials = $request->validate([
             'email' => 'required|email:dns',
-            'password' => 'required'
+            'password' => 'required',
         ]);
 
 
@@ -78,4 +80,5 @@ class RegController extends Controller
 
         return back()->with('loginError', 'Email or Password is wrong');
     }
+
 }
