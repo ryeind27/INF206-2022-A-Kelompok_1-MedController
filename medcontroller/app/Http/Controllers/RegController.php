@@ -24,6 +24,28 @@ class RegController extends Controller
     {
         return view('Auth.forgotpass');
     }
+
+    public function home()
+    {
+        return view('home');
+    }
+    public function profile()
+    {
+        return view('profile');
+    }
+    public function setJadwal()
+    {
+        return view('Auth.jadwal');
+    }
+    public function chat()
+    {
+        return view('Auth.chat');
+    }
+    public function resep()
+    {
+        return view('Auth.resep');
+    }
+
     //SignUp Store Data
     public function store(Request $request)
     {
@@ -53,7 +75,7 @@ class RegController extends Controller
 
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
-            return redirect()->intended('/Home');
+            return redirect()->intended('/home');
         }
 
         return back()->with('loginError', 'Email or Password is wrong');
