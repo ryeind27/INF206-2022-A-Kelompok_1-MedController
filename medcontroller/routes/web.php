@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegController;
+use App\Http\Controllers\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +24,11 @@ Route::get('/', function () {
 
    Route::get('/signUp',[RegController::class,'daftar']);
 
+Route::post('/Login',[RegController::class,'login']);
+
+
    Route::get('/forgotpass',[RegController::class,'forgetpass']);
+
 
    Route::get('/SignUp',[RegController::class,'daftar']);
 
@@ -38,3 +43,11 @@ Route::get('/', function () {
    Route::get('/chat',[RegController::class,'chat']);
 
    Route::get('/resep',[RegController::class,'resep']);
+
+Route::get('/SignUp',[RegController::class,'daftar']);
+
+Route::post('/SignUp',[RegController::class,'store']);
+
+
+Route::get('/Home', [Appcontroller::class,'index']);
+
