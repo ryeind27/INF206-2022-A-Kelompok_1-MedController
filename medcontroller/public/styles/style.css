@@ -1,7 +1,3 @@
-/* * {
-    background-color: #79F1A4;
-}  */
-
 .profile{
     background-color: #79F1A4;
     position: absolute;
@@ -29,3 +25,13 @@ details{
   text-align: center;
   font-size: 12px;
   }
+
+/* .container{
+  position: relative;
+  top: 50%;
+  bottom: 100%;
+  width: 100%;
+  right: 4px;
+  text-align: center;
+  font-size: 12px;
+} */

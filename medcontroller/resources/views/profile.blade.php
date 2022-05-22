@@ -18,7 +18,6 @@
         <img src="./Images/avatar.png" alt="Logo" style="width:200px;" class="rounded-circle" href="#">
         <div>
         <a><b>NameUser</b></a>
-        </div>
     <div class="row detailTable">
       <div class="col-md-3">
           <details>
@@ -61,6 +60,7 @@
           </details>
         </div>
     </div>
+    </div>
   <br><br>
   <div class="d-grid gap-2 col-3 mx-auto">
   <a class="btn btn-outline-dark btn-light" href="#">Biodata</a>
@@ -69,5 +69,6 @@
 </div>
     </div>
 </div>
+    
 @endsection
 </body>
