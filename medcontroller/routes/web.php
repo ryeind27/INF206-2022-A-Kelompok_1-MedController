@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('navbar');
 });
 
-//    Route::get('/',[RegController::class,'index']);
+    Route::get('/',[RegController::class,'masuk']);
 
 
    Route::get('/signUp',[RegController::class,'daftar']);

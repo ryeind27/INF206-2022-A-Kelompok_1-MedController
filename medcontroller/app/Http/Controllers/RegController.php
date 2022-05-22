@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class RegController extends Controller
 {
-    public function index()
+    public function masuk()
     {
         return view('Auth.Login');
     }
@@ -19,10 +19,6 @@ class RegController extends Controller
     public function forgetpass()
     {
         return view('Auth.forgotpass');
-    }
-    public function navbar()
-    {
-        return view('navbar');
     }
     public function profile()
     {
