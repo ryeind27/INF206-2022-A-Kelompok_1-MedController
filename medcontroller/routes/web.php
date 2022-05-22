@@ -18,7 +18,7 @@ Route::get('/', function () {
    return view('profile');
 });
    // Route::get('/',[RegController::class,'Masuk']);
-   
+
    Route::get('/signUp',[RegController::class,'daftar']);
 
    Route::post('/Login',[RegController::class,'login']);
