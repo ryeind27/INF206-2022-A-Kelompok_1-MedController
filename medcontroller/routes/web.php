@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegController;
-use App\Http\Controllers\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,33 +13,35 @@ use App\Http\Controllers\AppController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-   Route::get('/',[RegController::class,'Masuk']);
-   
-   Route::get('/signUp',[RegController::class,'daftar']);
+    Route::get('/',[RegController::class,'Masuk']);
 
-   Route::post('/Login',[RegController::class,'login']);
+    Route::get('/signUp',[RegController::class,'daftar']);
 
-   Route::get('/forgotpass',[RegController::class,'forgetpass']);
+    Route::post('/Login',[RegController::class,'login']);
 
-   Route::get('/SignUp',[RegController::class,'daftar']);
+    Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
-   Route::get('/home',[RegController::class,'home']);
+    Route::get('/SignUp',[RegController::class,'daftar']);
 
-   Route::get('/profile',[RegController::class,'profile']);
+    Route::get('/home',[RegController::class,'home']);
 
-   Route::get('/login',[RegController::class,'index']);
+    Route::get('/profile',[RegController::class,'profile']);
 
-   Route::get('/jadwal',[RegController::class,'setJadwal']);
+    Route::get('/login',[RegController::class,'index']);
 
-   Route::get('/chat',[RegController::class,'chat']);
+    Route::get('/jadwal',[RegController::class,'setJadwal']);
 
-   Route::get('/resep',[RegController::class,'resep']);
+    Route::get('/chat',[RegController::class,'chat']);
+
+    Route::get('/resep',[RegController::class,'resep']);
+
+
+   Route::post('/SignUp',[RegController::class,'store']);
+
+   Route::get('/resepDokter',[RegController::class,'resep']);
 
    Route::get('/SignUp',[RegController::class,'daftar']);
 
    Route::post('/SignUp',[RegController::class,'store']);
-   Route::get('/resepDokter',[RegController::class,'resep']);
 
-
-  
 

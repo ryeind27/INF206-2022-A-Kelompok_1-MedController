@@ -27,19 +27,19 @@ class RegController extends Controller
 
     public function home()
     {
-        return view('home');
+        return view('Features.home');
     }
     public function profile()
     {
-        return view('profile');
+        return view('Features.profile');
     }
     public function setJadwal()
     {
-        return view('Auth.jadwal');
+        return view('Features.jadwal');
     }
     public function chat()
     {
-        return view('Auth.chat');
+        return view('Features.chat');
     }
     public function resep()
     {

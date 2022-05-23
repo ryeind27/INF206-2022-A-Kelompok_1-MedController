@@ -3,33 +3,6 @@
 body {
     background-color: #79f1a4;
 }
-
-
-/* Navbar */
-
-.navbar {
-    padding-top: 0.75em !important;
-}
-
-.navbar-brand {
-    font-size: 2em;
-    color: #333;
-}
-
-.nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
-}
-
-.nav-link:hover::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid rgb(40, 40, 182);
-    width: 100%;
-    margin: auto;
-}
-
-
 /* Login, Register & Forget password */
 
 .auth-container,
