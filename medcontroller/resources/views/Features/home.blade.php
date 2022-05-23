@@ -1,5 +1,5 @@
 @extends('.navbar')
-@section('field')
+@section('konten')
 
 <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #344C2D;">
   <div class="container fluid">
