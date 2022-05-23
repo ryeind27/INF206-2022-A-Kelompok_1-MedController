@@ -14,28 +14,17 @@ use App\Http\Controllers\AppController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-   return view('profile');
-});
-   // Route::get('/',[RegController::class,'Masuk']);
+   Route::get('/',[RegController::class,'Masuk']);
    
    Route::get('/signUp',[RegController::class,'daftar']);
 
-<<<<<<< HEAD
    Route::post('/Login',[RegController::class,'login']);
-=======
-Route::get('/',[RegController::class,'Masuk']);
->>>>>>> TM-Roy-Adrian_2008107010069
 
    Route::get('/forgotpass',[RegController::class,'forgetpass']);
 
-<<<<<<< HEAD
    Route::get('/SignUp',[RegController::class,'daftar']);
 
    Route::get('/home',[RegController::class,'home']);
-=======
-Route::get('/SignUp',[RegController::class,'daftar']);
->>>>>>> TM-Roy-Adrian_2008107010069
 
    Route::get('/profile',[RegController::class,'profile']);
 
@@ -52,5 +41,5 @@ Route::get('/SignUp',[RegController::class,'daftar']);
    Route::post('/SignUp',[RegController::class,'store']);
 
 
-   // Route::get('/Home', [Appcontroller::class,'index']);
+  
 
