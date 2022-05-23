@@ -23,7 +23,7 @@
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
 <ul class="navbar-nav ml-auto">
   <li class="nav-item">
-    <a class="nav-link" href="{{url('login')}}"><b>Home</b></a>
+    <a class="nav-link" href="{{url('home')}}"><b>Home</b></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" a href="{{url('resep')}}"><b>Resep</b></a>
@@ -35,7 +35,7 @@
       <a class="nav-link" a href="{{url('chat')}}"><b>Chat</b></a>
   </li>
   <a href="#">
-<a href="{{url('profile')}}"><img src="./Images/avatar.png" alt="Logo" style="width:60px;" class="btn" href="#" /> 
+<a href="{{url('profile')}}"><img src="./Images/avatar.png" alt="Logo" style="width:60px;" class="btn" href="home" />
 </a>
 </ul>
   </div>
