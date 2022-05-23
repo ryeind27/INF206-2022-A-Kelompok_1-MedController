@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #344C2D;">
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #4a6b3f;">
   <div class="container fluid">
   <!-- Brand -->
   <span class="navbar-brand mb-0 h1"><img src="./Images/MedController.png" alt="Logo" style="width:20%;" href="#"> </span>
@@ -32,7 +32,7 @@
       <a class="nav-link" a href="{{url('setJadwal')}}"><b>Jadwal</b></a>
     </li>
   <li class="nav-item">
-      <a class="nav-link" a href="{{url('chat')}}"><b>Chat</b></a>
+      <a class="nav-link" a href="{{url('http://localhost:3000/')}}"><b>Chat</b></a>
   </li>
   <a href="#">
 <a href="{{url('profile')}}"><img src="./Images/avatar.png" alt="Logo" style="width:60px;" class="btn" href="#" />
