@@ -43,7 +43,7 @@ class RegController extends Controller
     }
     public function resep()
     {
-        return view('Auth.resep');
+        return view('Resep.resep');
     }
 
     //SignUp Store Data

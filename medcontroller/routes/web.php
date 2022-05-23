@@ -39,6 +39,7 @@ use App\Http\Controllers\AppController;
    Route::get('/SignUp',[RegController::class,'daftar']);
 
    Route::post('/SignUp',[RegController::class,'store']);
+   Route::get('/resepDokter',[RegController::class,'resep']);
 
 
   
