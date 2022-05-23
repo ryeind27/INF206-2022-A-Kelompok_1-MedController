@@ -35,8 +35,13 @@ use App\Http\Controllers\RegController;
 
     Route::get('/resep',[RegController::class,'resep']);
 
-    Route::get('/SignUp',[RegController::class,'daftar']);
 
-    Route::post('/SignUp',[RegController::class,'store']);
+   Route::post('/SignUp',[RegController::class,'store']);
+
+   Route::get('/resepDokter',[RegController::class,'resep']);
+
+   Route::get('/SignUp',[RegController::class,'daftar']);
+
+   Route::post('/SignUp',[RegController::class,'store']);
 
 
