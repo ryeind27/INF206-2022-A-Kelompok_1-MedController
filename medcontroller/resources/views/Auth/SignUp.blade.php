@@ -1,4 +1,4 @@
-@extends('app')
+@extends('.app')
 <!-- Register Form -->
 @section('content')
     <div class="container auth-container">
